@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf');
+}
+
+.jumbotron {
+  background-color: #1c2f59;
+  color: #fff;
+}
+
+h1::before,
+h5::before {
+  font-family: 'FontAwesome';
+  content: '\f1ea';
+  margin-right: 10px;
+}
+
+#run-search::before {
+  font-family: 'FontAwesome';
+  content: '\f002';
+  margin-right: 10px;
+}
+#clear-all::before {
+  font-family: 'FontAwesome';
+  content: '\f1f8';
+  margin-right: 10px;
+}
