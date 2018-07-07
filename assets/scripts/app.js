@@ -19,10 +19,10 @@ $('#run-search').on('click', function(e) {
     url: url,
     method: 'GET'
   })
-    .done(function(result) {
+    .then(function(result) {
       console.log(result);
     })
-    .fail(function(err) {
+    .catch(function(err) {
       throw err;
     });
 });
